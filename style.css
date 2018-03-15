@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 22px ;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+@font-face {
+    font-family: 'Open Sans', sans-serif;
+    src: url('https://fonts.googleapis.com/css?family=Open+Sans');
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 0 auto;
+}
+
+header {
+    margin: 0 auto;
+    flex: 0 0 auto;
+    height: 230px;
+    width: 100%;
+    background: #ff1310;
+}
+.menu {
+    margin: 0 auto;
+    flex: 0 0 auto;
+    height: 80px;
+    width: 100%;
+    background: #eeffef;
+}
+.slider {
+    margin: 0 auto;
+    flex: 0 1 auto;
+    height: 400px;
+    width: 100%;
+}
+
+.slider img{
+    display: block;
+    margin: 0 auto;
+}
+
+.content {
+    margin: 0 auto;
+    flex: 1 0 auto;
+    height: auto;
+    width: 100%;
+    background: #3cff32;
+}
+footer {
+    margin: 0 auto;
+    flex: 0 0 auto;
+    height: 220px;
+    width: 100%;
+    background: #3c6d84;
+}
