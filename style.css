@@ -237,3 +237,7 @@ footer {
 .f3 {
     width: 250px;
 }
+
+.f3 p{
+    margin-top: -5px;
+}
